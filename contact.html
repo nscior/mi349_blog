@@ -24,9 +24,49 @@
 
         <main>
 
-            <div id="contact">
-                <h2>Contact Me</h2>
-                <p>You can contact me at blah blah</p>
+            <div><h3 id="h3contact">Contact Me</h3>
+
+                <form>
+
+                    <div>
+                        <label for="name">Name:
+                            <input type="text" id="name" name="name">
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label for="email">Email:
+                            <input type="text" id="email" name="email">
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label for="reason">Reason for Contact:
+                            <select name="reason" id="reason">
+                                <option value="">--------</option>
+                                <option value="sayinghi">Saying hi</option>
+                                <option value="contractor">Looking for contractor</option>
+                                <option value="interview">Interested in an interview</option>
+                            </select>
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label for="comments">Questions or Concerns:
+                            <textarea id="comments" name="comments" rows="4" cols="50">
+Write Here!
+                            </textarea>
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <button>
+                            Submit!            
+                        </button>
+                    </div>
+
+                </form>
+
             </div>
                 
         </main>
