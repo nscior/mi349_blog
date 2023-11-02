@@ -11,37 +11,37 @@
 
     <body>
         
-        <header>
-            <h1>Nick's Blog</h1>
-        </header>
+        <div class="header">
+            <header id="title">
+                <h1>Nick's Blog</h1>
+            </header>
 
-        <nav id="main-nav">
             <ul class="main-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
+        </div>
 
         <main>
 
             <div><h3 id="h3contact">Contact Me</h3>
 
-                <form>
+                <form class="form">
 
-                    <div>
-                        <label for="name">Name:
-                            <input type="text" id="name" name="name">
+                    <div class="area">
+                        <label class="inline">Name:
+                            <input type="text" class="inputctrl">
                         </label>
                     </div>
                     
-                    <div>
-                        <label for="email">Email:
-                            <input type="text" id="email" name="email">
+                    <div class="area">
+                        <label class="inline">Email:
+                            <input type="text" class="inputctrl">
                         </label>
                     </div>
                     
-                    <div>
+                    <div class="area">
                         <label for="reason">Reason for Contact:
                             <select name="reason" id="reason">
                                 <option value="">--------</option>
@@ -52,15 +52,12 @@
                         </label>
                     </div>
                     
-                    <div>
-                        <label for="comments">Questions or Concerns:
-                            <textarea id="comments" name="comments" rows="4" cols="50">
-Write Here!
-                            </textarea>
-                        </label>
+                    <div class="area">
+                        <label class="inline">Questions or Concerns:</label>
+                        <textarea id="comments" class="inputctrl">Write Here!</textarea>
                     </div>
                     
-                    <div>
+                    <div class="area">
                         <button>
                             Submit!            
                         </button>
